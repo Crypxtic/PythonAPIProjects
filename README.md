@@ -1,9 +1,7 @@
 # PythonAPIProjects
-In this github repository is all my python API projects I have created for the past few years
+In this github repository is all my python API projects I have created for the past few years. If one of the packages don't exist, just do pip install <package name> in that directory.
 
-If you don't understand 90% of the trading terms I'm talking about, that's ok.
-
-Here is some of the projects I made:
+Here is some of the trading-related projects I made:
 
 # Roblox Trade Bot 
 This is my own trade bot where it scrapes users and sends gains for you. It includes a custom value algorithm that isn't fully developed yet. This bot uses threads and proxies to speed up scraping. I also need to fix the queue generator and the value algorithm which is not currently accurate. 
