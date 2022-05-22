@@ -1,0 +1,12 @@
+{
+  "auth":
+  {"cookie": "",
+  "userId": 244813380,
+  "proxy": ""},
+  "proxyList": [],
+  "webhook": "",
+  "trading": {
+    "sending": [6350035237,1535086133],
+    "receiveID": 156095442
+  }
+}

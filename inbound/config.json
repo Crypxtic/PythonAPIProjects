@@ -1,0 +1,115 @@
+{
+    "authentication": {
+      "robloxSecurityCookie": "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_",
+      "userId": 1
+    },
+    "rolimons": {
+      "rolimonsVerificationCookie": "",
+      "itemsNotToOffer": [0],
+      "itemsNotToRequest": [0]
+    },
+    "discord": {
+      "webhook": "https://discord.com/api/webhooks/"
+    },
+    "trading": {
+      "focusOnProjectedFlipping": false,
+      "toUse": "percentages",
+      "maxTradeRap": 99999999,
+      "maxTradeValue": 99999999,
+      "maxItemValue": 99999999,
+      "maxItemRap": 99999999,
+
+      "minTradeRap": 0,
+      "minTradeValue": 0,
+      "minItemValue": 0,
+      "minItemRap": 0,
+
+      "minItemsToSend": 1,
+      "maxItemsToSend": 4,
+      "minItemsToReceive": 1,
+      "maxItemsToReceive": 4,
+
+      "minItemAge":670,
+      "minDailySales":1.2,
+
+      "fixed": {
+        "maxValueGain": 900,
+        "minValueGain": 300,
+        "maxRapGain": 600,
+        "minRapGain": 200,
+        "projectedDecrease": 500
+      },
+      "percentages": {
+        "maxValueGain": 1.10,
+        "minValueGain": 1.02,
+        "maxRapGain": 1.12,
+        "minRapGain": 1.02,
+        "projectedDecrease": 0.2
+      },
+      "itemsNotToSend": [
+        527365852
+      ],
+      "itemsYouDontWant": [1532381,1532384,1532386,1532387,1532389,1532390,1532395,1533893,24485058,24485062,24826656,24826683,24826725,24826737,24826755,24826811,24826853,24832618,24975496,31149956,31151864,31157811,50453938,63647492,76692101,76692172,76692866,76807520,100933389,102614621,111776247,152980639,233616117,1536054971,27345567,102631707,1530795,1532385,1532388,1532396,24826640,24826704,24826800,24830979,76692143,76692214,152980562,380566976,6803397504,6803398976,6803400584,6803403781,6803405665,6803410579,6807134749,6807135859,6807138720,6815676017,7212280564,7592004548,7893468574,8198290657,8763364938,8769448867,8785294898,8853093338,8853102495,8853117992,8853127057,1028606,8785277745,8769466816,8853097484,8769478056,8274214179,8198301926,8194165059,8198278666,7592037079,7592026396,7212291640,7212280564,7212273948,6815676017],
+      "peopleToAvoid": [
+        1273229787
+      ],
+      "robux": {
+        "enabled": false,
+        "valuePerRobux": 0.21070012,
+        "maxRobuxToGive": 5,
+        "minRobuxToGive": 0,
+        "maxRobuxToReceive": 200,
+        "minRobuxToReceive": 50
+      },
+      "safety": {
+        "compareRobuxPrices": false,
+        "mustHaveHigherRap": true,
+        "mustHaveHigherValue": true
+      }
+    },
+    "caching": {
+      "playerTimeout":14,
+      "itemTimeout": 5
+    },
+    "bounds": {
+      "outbound": {
+        "checkOutboundTrades": true,
+        "checkOutBoundTradesCooldown": 30,
+        "declineEqualTrade": true,
+        "ignoreWhenGivingTheseItems": [
+          1
+        ],
+        "ignoreWhenReceivingTheseItems": [
+          1
+        ]
+      },
+      "inbound": {
+        "checkInboundTrades": true,
+        "acceptInboundTrades": true,
+        "checkInBoundTradesCooldown": 30,
+        "declineProjecteds": true,
+        "declineEqualTrade": false,
+        "ignoreWhenGivingTheseItems": [
+          1
+        ],
+        "ignoreWhenReceivingTheseItems": [
+          1
+        ]
+      }
+    },
+    "specificTrading": {
+      "enabled": false,
+      "itemsToGive": [
+        1
+      ],
+      "itemsToReceive": [
+        1
+      ],
+      "robuxToGive": 0,
+      "robuxToReceive": 0
+    },
+    "debug": {
+      "dontSendTrade": false,
+      "printSuccessfulTrades": true
+    }
+  }
