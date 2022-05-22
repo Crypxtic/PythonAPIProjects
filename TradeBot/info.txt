@@ -1,0 +1,11 @@
+values.json template:
+
+"id": {"actualVal": somevalfromRoli,
+"correctedVal": somevalfromFunc, (0 the first time)
+"projected": bool,
+"nextCheck": time.time() + 600,
+}
+
+users.json template:
+
+for "users", each user is:
